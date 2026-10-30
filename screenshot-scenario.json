@@ -1,0 +1,82 @@
+{
+  "steps": [
+    {
+      "waitLoader": true,
+      "wait": 2.0,
+      "shot": "01_HowToPlay"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.721
+      ],
+      "label": "CLOSE (how to play)",
+      "wait": 1.6,
+      "shot": "02_MenuScreen"
+    },
+    {
+      "tapFrac": [
+        0.2625,
+        0.8551
+      ],
+      "label": "GARDEN MAP",
+      "wait": 1.6,
+      "shot": "03_GardenMap"
+    },
+    {
+      "tapFrac": [
+        0.2391,
+        0.3022
+      ],
+      "label": "TREE 1",
+      "waitLoader": true,
+      "wait": 4.0,
+      "shot": "04_PuzzleBoard"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.3673
+      ],
+      "label": "SELECT OUTER RING",
+      "wait": 1.4,
+      "shot": "05_RingSelected"
+    },
+    {
+      "tapFrac": [
+        0.7738,
+        0.8913
+      ],
+      "label": "TURN RIGHT",
+      "wait": 1.6,
+      "shot": "06_RingTurned"
+    },
+    {
+      "tapFrac": [
+        0.2262,
+        0.8913
+      ],
+      "label": "TURN LEFT",
+      "wait": 1.6,
+      "shot": "07_BoardAfterTurns"
+    },
+    {
+      "tapFrac": [
+        0.913,
+        0.0536
+      ],
+      "label": "PAUSE",
+      "wait": 1.6,
+      "shot": "08_PausePop"
+    },
+    {
+      "tapFrac": [
+        0.73,
+        0.641
+      ],
+      "label": "RESUME (pause popup)",
+      "wait": 1.8,
+      "shot": "09_PuzzleResumed"
+    }
+  ]
+}
